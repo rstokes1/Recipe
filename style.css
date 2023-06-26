@@ -289,7 +289,6 @@ footer {
     grid-template-columns: 50% 50%;
     grid-template-areas: "copyright social";
     padding: 40px 0px 20px 10px;
-    align-items: top;
     width: 100%;
 }
 footer img {
@@ -310,7 +309,6 @@ a {
     align-items: center;
     margin-bottom: 10px;
     text-align: center;
-    align-items: top;
 }
 #social ul {
     display: flex;
@@ -320,7 +318,6 @@ a {
 #copyright {
     grid-area: copyright;
     display: flex;
-    align-items: top;
     flex-direction: row-reverse;
     justify-content: left;
 }
@@ -427,7 +424,6 @@ a {
         flex-direction: row;
         align-items: center;
         text-align: center;
-        align-items: top;
     }
     #dishes ul{
         display: grid;
@@ -613,7 +609,6 @@ a {
     #hamburger:checked ~ ul li {
         display: block;
     }
-
     /* social */
     #social {
         width: 100%;
@@ -628,7 +623,6 @@ a {
         grid-template-rows: auto auto;
         grid-template-columns: 1fr;
         grid-template-areas: "social" "copyright";
-        align-items: top;
         justify-content: center;
         padding: 0;
         padding: 20px 0;
